@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.project-card {
+  margin: 20px;
+  width: 1000px;
+  height: 400px;
+  background-color: white;
+  outline: 1px solid;
+}
+
+.project-card-img {
+  border-radius: 0px !important;
+  outline: 1px solid;
+  width: 100%;
+  height: 100%;
+}
+
+.leading {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+
+.trailing {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+
+.project-card-title {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.project-card-text {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.project-card-labels {
+  font-size: 12px;
+  margin: 0px;
+}
