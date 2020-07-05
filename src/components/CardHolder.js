@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 import buildings from '../assets/images/buildings.png';
 import bus from '../assets/images/bus.png';
@@ -52,16 +53,15 @@ class CardHolder extends React.Component {
 
     createCards = (items) => {
         return items.map(item => {
-            return <Card item={item} onClick={(e => this.handleClick(item.id, e))} key={item.id} />
+            // return <Card item={item} onClick={(e => this.handleClick(item.id, e))} key={item.id} />
+            return <Card item={item} key={item.id} />
         })
     }
 
     render() {
         return(
-            <Container>
-                <Col className="justify-content-around" md={7}>
-                    {this.createCards(this.state.items)}
-                </Col>
+            <Container className="justify-content-center">
+                {this.createCards(this.state.items)}
             </Container>
         );
     }

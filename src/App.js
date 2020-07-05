@@ -24,11 +24,11 @@ class App extends React.Component {
         { title: 'About', path: '/about' },
         { title: 'Contact', path: '/contact' }
       ],
-      home: {
-        title: 'Mary Jiang',
-        subtitle: 'Henlo',
-        text: 'Look here'
-      },
+      // home: {
+      //   title: 'I\'m a software developer based in Atlanta',
+      //   subtitle: 'Henlo',
+      //   text: 'Look here'
+      // },
       projects: {
         title: 'Projects',
       },
@@ -45,21 +45,19 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Mary Jiang</Navbar.Brand>
+          <Navbar className="border-bottom" bg="light" fixed="top" style={{ outline: '1px solid' }}>
+            <Navbar.Brand className="nav-link" href="/">Mary Jiang</Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" smooth to="/#projects">Projects</Link>
                 <Link className="nav-link" smooth to="/#about">About</Link>
                 <Link className="nav-link" smooth to="/#contact">Contact</Link>
-
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/" exact render={() => <Home title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text} />} />
+          <Route path="/" exact render={() => <Home />} />
           <Route path="/projects" render={() => <Projects title={this.state.projects.title} />} />
           <Route path="/about" render={() => <About title={this.state.about.title} />} />
           <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />

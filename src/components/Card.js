@@ -1,5 +1,8 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 import CardInfo from '../components/CardInfo';
 
@@ -7,14 +10,17 @@ function Card(props) {
 
     const style = useSpring({
         opacity: 1,
-        from: {opactiy: 0}
+        from: {opactiy: 0},
     });
 
     return(
-        <animated.div className="d-inline-block project-card" style={style} onClick={(e) => props.click(props.item)}>
-            <div className="leading"><CardInfo title={props.item.title} text={props.item.text} labels={props.item.labels} /></div>
-            <img className="project-card-img trailing" src={props.item.img} alt={props.item.img} />
-        </animated.div>
+        // <animated.div className="d-inline-block project-card" style={style} onClick={(e) => props.click(props.item)}>
+        <Container className="justify-content-center project-card">
+            <Row>
+                <Col sm={7}><CardInfo title={props.item.title} text={props.item.text} labels={props.item.labels} /></Col>
+                <Col sm={5} className="trailing"><img className="project-card-img" src={props.item.img} alt={props.item.img} /></Col>
+            </Row>
+        </Container>
     );
 }
 
