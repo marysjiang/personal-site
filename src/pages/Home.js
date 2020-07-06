@@ -7,11 +7,11 @@ import Intro from '../components/Intro';
 function Home(props) {
 
     return(
-        <div>
-            <Intro />
-            <div id="projects"><Projects /></div>
-            <div id="about"><About /></div>
-            <div id="contact"><Contact /></div>
+        <div class="grid">
+            <div class="alignment" id="intro"><Intro /></div>
+            <div class="alignment" id="projects"><Projects /></div>
+            <div class="alignment" id="about"><About /></div>
+            <div class="alignment" id="contact"><Contact /></div>
         </div>
     );
 }

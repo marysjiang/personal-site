@@ -16,16 +16,42 @@ h1 {
   font-size: 7vw;
 }
 
+.introduction {
+  margin-top: 30vh;
+  margin-bottom: 30vh !important;
+  height: 40vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: [full-start] 0 [main-start text-start] repeat(10,1fr) [text-end main-end] 0 [full-end];
+  grid-gap: 20px;
+}
+
+.alignment {
+  grid-column: 4 / span 4;
+  display: flex;
+  flex-direction: column;
+  -moz-box-pack: end;
+  justify-content: flex-end;
+  padding: 0px !important;
+}
+
 .project-card {
   background-color: white;
   outline: 1px solid;
   margin-bottom: 3vw;
+  width: 55vw !important;
+  height: 20vw !important;
 }
 
 .project-card-img {
   border-radius: 0px !important;
   outline: 1px solid;
   width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .trailing {

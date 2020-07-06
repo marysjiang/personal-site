@@ -9,12 +9,12 @@ import star from '../assets/images/star.png';
 function Intro(props) {
     
     return(
-        <Jumbotron className="bg-transparent" jumbotron-fluid p-0>
+        <Jumbotron className="bg-transparent alignment introduction" jumbotron-fluid p-0>
             <Container fluid={true}>
-                <Row className="justify-content-center py-5">
-                    <Col md={7} sm={5}>
+                <Row className="py-5">
+                    <Col>
                         <img src={star} className="" style={{ height: '25%' }} />
-                        <h1>I'm a software developer<br></br>based in Atlanta</h1>
+                        <h1>hello in a hello<br></br>world</h1>
                     </Col>
                 </Row>
             </Container>

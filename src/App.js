@@ -20,15 +20,10 @@ class App extends React.Component {
       title: 'Mary Jiang',
       headerLinks: [
         { title: 'Home', path: '/home' },
-        { title: 'Projects', path: '/projects' }, // /#projects
-        { title: 'About', path: '/about' },
-        { title: 'Contact', path: '/contact' }
+        { title: 'Projects', path: '/#projects' }, // /#projects
+        { title: 'About', path: '/#about' },
+        { title: 'Contact', path: '/#contact' }
       ],
-      // home: {
-      //   title: 'I\'m a software developer based in Atlanta',
-      //   subtitle: 'Henlo',
-      //   text: 'Look here'
-      // },
       projects: {
         title: 'Projects',
       },

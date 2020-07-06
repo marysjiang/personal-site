@@ -18,7 +18,9 @@ function Card(props) {
         <Container className="justify-content-center project-card">
             <Row>
                 <Col sm={7}><CardInfo title={props.item.title} text={props.item.text} labels={props.item.labels} /></Col>
-                <Col sm={5} className="trailing"><img className="project-card-img" src={props.item.img} alt={props.item.img} /></Col>
+                <Col sm={5} className="trailing">
+                    <img className="project-card-img" src={props.item.img} alt={"description of image"} />
+                </Col>
             </Row>
         </Container>
     );
