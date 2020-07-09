@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+@font-face {
+    font-family: 'inconsolata';
+    src:url('./fonts/inconsolata.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monument-grotesk';
+    src:url('./fonts/monument-grotesk-regular.ttf') format("truetype"),
+        url('monument-grotesk-regular-webfont.woff2') format('woff2'),
+        url('monument-grotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'plantin';
+    src:url('./fonts/Plantin.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'swiss721';
+    src:url('./fonts/Swiss721.ttf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas';
+    src:url('./fonts/NeueHaasGrotesk.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Grotesk Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Space Grotesk Regular'), url('SpaceGrotesk-Regular.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Space Grotesk Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Space Grotesk Light'), url('SpaceGrotesk-Light.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Space Grotesk Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Space Grotesk Medium'), url('SpaceGrotesk-Medium.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Space Grotesk SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Space Grotesk SemiBold'), url('SpaceGrotesk-SemiBold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Space Grotesk Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Space Grotesk Bold'), url('SpaceGrotesk-Bold.woff') format('woff');
+    }

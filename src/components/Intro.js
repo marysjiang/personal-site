@@ -12,9 +12,9 @@ function Intro(props) {
         <Jumbotron className="bg-transparent alignment introduction" jumbotron-fluid p-0>
             <Container fluid={true}>
                 <Row className="py-5">
-                    <Col>
-                        <img src={star} className="" style={{ height: '25%' }} />
-                        <h1>hello in a hello<br></br>world</h1>
+                    <Col id="header">
+                        <img src={star} className="mb-3" style={{ height: '23%' }} />
+                        <h1>I'm a software engineer<br></br>based in Atlanta</h1>
                     </Col>
                 </Row>
             </Container>

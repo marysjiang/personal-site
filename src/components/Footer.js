@@ -9,10 +9,10 @@ function Footer() {
             <Container md={6}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        Mary Jiang
+                        Coded in React
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by me.
+                        © Mary Jiang 2020
                     </Col>
                 </Row>
             </Container>

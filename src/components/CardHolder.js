@@ -60,7 +60,7 @@ class CardHolder extends React.Component {
 
     render() {
         return(
-            <Container className="justify-content-center">
+            <Container>
                 {this.createCards(this.state.items)}
             </Container>
         );
