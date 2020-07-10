@@ -5,14 +5,14 @@ import Col from 'react-bootstrap/Col';
 
 function Footer() {
     return(
-        <footer className="mt-5">
+        <footer className="mt-5 alignment text-body">
             <Container md={6}>
-                <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
-                        Coded in React
+                <Row className="border-line border-dark justify-content-between p-0">
+                    <Col className="p-0 py-4" md={3} sm={12}>
+                        <p class="footer">Coded in React</p>
                     </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
-                        © Mary Jiang 2020
+                    <Col className="p-0 py-4 d-flex justify-content-end" md={3}>
+                        <p class="footer">© Mary Jiang 2020</p>
                     </Col>
                 </Row>
             </Container>

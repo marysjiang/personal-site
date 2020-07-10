@@ -12,7 +12,7 @@ function About(props) {
                 <Container fluid={true}>
                     <Row className="py-5">
                         <Col className="alignment">
-                            <h2>About</h2>
+                            <h2 className="text-body"> About</h2>
                             <p className="text-body">Howdy, I’m currently a student at Georgia Tech, studying 
                                 computer science and how to design and create things for people. I’m interested in exploring 
                                 the intersections between technology, art, and design.</p>

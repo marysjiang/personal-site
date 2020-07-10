@@ -1,8 +1,6 @@
 import React from 'react';
 import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 
 import buildings from '../assets/images/buildings.png';
 import bus from '../assets/images/bus.png';
@@ -18,33 +16,30 @@ class CardHolder extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Tale of Two Partners',
-                    text: ' is an authoring platform for exploring dramatic contrast',
+                    text: 'Tale of Two Partners is an authoring platform for exploring dramatic contrast',
                     labels: 'Frontend web development, prototyping, research',
                     img: buildings
                 },
                 {
                     id: 1,
-                    title: 'KK Runner',
-                    text: ' is an infinite side-scroller game made for the Game Boy Advance',
+                    text: 'KK Runner is an infinite side-scroller game made for the Game Boy Advance',
                     labels: 'Coded in C, game design',
                     img: bus
                 },
                 {
                     id: 2,
-                    title: 'Produce in Season',
-                    text: ' is a website that checks what produce is currently in season',
+                    text: 'Produce in Season is a website that checks what produce is currently in season',
                     labels: 'Frontend web development, prototyping',
                     img: dark
                 },
                 {
                     id: 3,
-                    title: 'Graphic Design',
+                    text: 'Graphic Design',
                     img: idk
                 },
                 {
                     id: 4,
-                    title: 'Film Photography',
+                    text: 'Film Photography',
                     img: wall
                 },
             ] 

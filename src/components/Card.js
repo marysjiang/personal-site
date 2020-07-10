@@ -17,7 +17,7 @@ function Card(props) {
         // <animated.div className="d-inline-block project-card" style={style} onClick={(e) => props.click(props.item)}>
         <Container className="justify-content-center project-card">
             <Row>
-                <Col sm={7}><CardInfo title={props.item.title} text={props.item.text} labels={props.item.labels} /></Col>
+                <Col sm={7}><CardInfo text={props.item.text} labels={props.item.labels} /></Col>
                 <Col sm={5} className="trailing">
                     <img className="project-card-img" src={props.item.img} alt={"description of image"} />
                 </Col>

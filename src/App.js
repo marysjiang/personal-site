@@ -57,7 +57,7 @@ class App extends React.Component {
           <Route path="/about" render={() => <About title={this.state.about.title} />} />
           <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />
 
-          <Footer />
+          {/* <Footer /> */}
         </Container>
       </Router>
     );
