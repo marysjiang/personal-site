@@ -17,10 +17,10 @@ function Contact(props) {
                             noodle recommendations, or just to say hi.</p>
 
                         <p className="text-body">Email<br />
-                        jiang.marys@gmail.com</p>
+                        <a href="mailto:jiang.marys@gmail.com"><span id="links">jiang.marys@gmail.com</span></a></p>
 
                         <p className="text-body">Links<br />
-                        Github 〰〰 LinkedIn</p>
+                        <a href="https://github.com/marysjiang"><span id="links">Github</span></a> 〰〰 <a href="https://www.linkedin.com/in/marysjiang/"><span id="links">LinkedIn</span></a></p>
                     </Col>
                 </Row>
             </Container>

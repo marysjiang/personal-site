@@ -27,9 +27,15 @@ h2:after {
 }
 
 p {
-  /* font-size: 3vh; */
   font-size: 1.3rem;
   font-family: 'Heebo', sans-serif;
+}
+
+p.header {
+  font-size: 1.15rem;
+  margin: auto;
+  color: black;
+  /* font-weight: 600; */
 }
 
 p.footer {
@@ -71,13 +77,21 @@ p.footer {
   padding: 0px !important;
 }
 
+#links {
+  font-family: 'inconsolata';
+}
+
 .border-line {
   border-top: 2px solid !important;
 }
 
 .text-body {
   width: 150% !important;
-  /* line-height: 1.3em; */
+  line-height: 1.3em;
+}
+
+.projects-width {
+  width: 150% !important;
 }
 
 .anchor-projects {
