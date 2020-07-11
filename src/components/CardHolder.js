@@ -15,31 +15,34 @@ class CardHolder extends React.Component {
         this.state = {
             items: [
                 {
-                    id: 0,
-                    text: 'Tale of Two Partners is an authoring platform for exploring dramatic contrast',
+                    id: 'tale-of-two-partners',
+                    title: 'Tale of Two Partners',
+                    text: ' is an authoring platform for exploring dramatic contrast',
                     labels: 'Frontend web development, prototyping, research',
                     img: buildings
                 },
                 {
-                    id: 1,
-                    text: 'KK Runner is an infinite side-scroller game made for the Game Boy Advance',
+                    id: 'kk-runner',
+                    title: 'K.K. Runner',
+                    text: ' is an infinite side-scroller game made for the Game Boy Advance',
                     labels: 'Coded in C, game design',
                     img: bus
                 },
                 {
-                    id: 2,
-                    text: 'Produce in Season is a website that checks what produce is currently in season',
+                    id: 'produce-in-season',
+                    title: 'Produce in Season',
+                    text: ' is a website that checks what produce is currently in season',
                     labels: 'Frontend web development, prototyping',
                     img: dark
                 },
                 {
-                    id: 3,
-                    text: 'Graphic Design',
+                    id: 'graphic-design',
+                    title: 'Graphic Design',
                     img: idk
                 },
                 {
-                    id: 4,
-                    text: 'Film Photography',
+                    id: 'film-photography',
+                    title: 'Film Photography',
                     img: wall
                 },
             ] 
