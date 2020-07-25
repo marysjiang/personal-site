@@ -14,7 +14,7 @@ function Intro(props) {
                 <Row className="py-5">
                     <Col id="header">
                         <img src={star} alt={"description of image"} className="mb-3" style={{ height: '23%' }} />
-                        <h1>henlo<br></br>henlo henlo world</h1>
+                        <h1>I'm a software engineer<br></br>based in Atlanta.</h1>
                     </Col>
                 </Row>
             </Container>

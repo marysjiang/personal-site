@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem !important;
+  font-size: 2.9rem !important;
   font-family: 'Heebo', sans-serif;
 }
 
@@ -32,15 +32,23 @@ p {
 }
 
 p.header {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   margin: auto;
   color: black;
   /* font-weight: 600; */
 }
 
+p.header:hover {
+  color: #a0a0a0;
+}
+
 p.footer {
   font-size: 1.2rem;
   padding-bottom: 6vh;
+}
+
+p.link {
+  font-size: 1.1rem;
 }
 
 .introduction {
@@ -79,6 +87,13 @@ p.footer {
 
 #links {
   font-family: 'inconsolata';
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+#links:hover {
+  color: white !important;
+  background-color: black;
 }
 
 .border-line {
@@ -126,12 +141,19 @@ p.footer {
 .project-card-title {
   font-size: 1.5rem;
   margin: 0px;
-  border-bottom: 1.5px solid;
+  /* text-decoration: underline;
+  text-decoration-thickness: 1px !important; */
+  font-weight: 600;
   color: black;
   display: inline;
 }
 
 .project-card-title:hover {
+  color: black;
+  /* background-color: black; */
+}
+
+/* .project-card-title:hover {
   color: black;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='black' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-position: bottom;
@@ -139,7 +161,7 @@ p.footer {
   background-size: 7%;
   border-bottom: 0;
   text-decoration: none;
-}
+} */
 
 .project-card-text {
   font-size: 1.5rem;
@@ -148,7 +170,7 @@ p.footer {
 }
 
 .project-card-labels {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   margin: 0px;
   display: flex;
 }

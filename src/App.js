@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { HashLink as Link } from'react-router-hash-link';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
@@ -7,9 +7,8 @@ import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
 import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+import Projects from './pages/Projects'
+import T2PPage from './pages/T2PPage';
 
 class App extends React.Component {
 
@@ -52,6 +51,11 @@ class App extends React.Component {
           </Navbar>
 
           <Route path="/" exact render={() => <Home />} />
+          {/* <Route path="/#projects" render={() => <Projects />} /> */}
+          {/* <Switch>
+            <Route path="/" exact render={() => <Home />} />
+          </Switch> */}
+          
           {/* <Route path="/tale-of-two-partners" render={() => <Project title={this.state.}} */}
           {/* <Route path="/projects" render={() => <Projects title={this.state.projects.title} />} />
           <Route path="/about" render={() => <About title={this.state.about.title} />} />

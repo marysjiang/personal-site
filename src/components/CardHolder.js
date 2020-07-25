@@ -2,11 +2,11 @@ import React from 'react';
 import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
 
-import buildings from '../assets/images/buildings.png';
-import bus from '../assets/images/bus.png';
+import t2p_banner from '../assets/images/t2p_banner.png';
+import kk_runner_banner from '../assets/images/kk_runner_banner.png';
 import dark from '../assets/images/dark.png';
-import idk from '../assets/images/idk.png';
-import wall from '../assets/images/wall.png';
+import graphic_design_banner from '../assets/images/graphic_design_banner.png';
+import film_photography from '../assets/images/film_photography.png';
 
 class CardHolder extends React.Component {
 
@@ -19,14 +19,14 @@ class CardHolder extends React.Component {
                     title: 'Tale of Two Partners',
                     text: ' is an authoring platform for exploring dramatic contrast',
                     labels: 'Frontend web development, prototyping, research',
-                    img: buildings
+                    img: t2p_banner
                 },
                 {
                     id: 'kk-runner',
                     title: 'K.K. Runner',
                     text: ' is an infinite side-scroller game made for the Game Boy Advance',
                     labels: 'Coded in C, game design',
-                    img: bus
+                    img: kk_runner_banner
                 },
                 {
                     id: 'produce-in-season',
@@ -38,12 +38,12 @@ class CardHolder extends React.Component {
                 {
                     id: 'graphic-design',
                     title: 'Graphic Design',
-                    img: idk
+                    img: graphic_design_banner
                 },
                 {
                     id: 'film-photography',
                     title: 'Film Photography',
-                    img: wall
+                    img: film_photography
                 },
             ] 
         }
