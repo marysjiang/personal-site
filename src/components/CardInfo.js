@@ -12,7 +12,7 @@ function CardInfo(props) {
                 <p className="project-card-title">{props.title}</p>
                 <p className="project-card-text">{props.text}</p>
                 {/* ✧✦ ↗ */}
-                <p className="project-card-labels">{props.labels}</p>
+                <p className="project-card-labels py-2">{props.labels}</p>
             </div>
         //     <Switch>
         //         <Route path="`/projects/${props.id}`"> render={() => <T2PPage />}</Route>

@@ -39,7 +39,7 @@ function Contact(props) {
                                 <a href="mailto:jiang.marys@gmail.com"><span id="links">jiang.marys@gmail.com</span></a></p>
 
                                 <p className="text-body">Links<br />
-                                <a href="https://github.com/marysjiang"><span id="links">Github</span></a> 〰〰 <a href="https://www.linkedin.com/in/marysjiang/"><span id="links">LinkedIn</span></a></p>
+                                <a href="https://github.com/marysjiang"><span id="links">Github</span></a> 〰〰 <a href="https://www.linkedin.com/in/marysjiang/"><span id="links">LinkedIn</span></a> 〰〰 <a href="https://open.spotify.com/user/1292734472?si=IRdQjX-ETOalh7-p2eDpug"><span id="links">Spotify</span></a></p> 
                             </Col>
                         </Row>
                     </Container>

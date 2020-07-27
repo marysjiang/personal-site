@@ -229,7 +229,8 @@ p.link {
 }
 
 .project-card-labels {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-family: 'inconsolata';
   margin: 0px;
   display: flex;
 }

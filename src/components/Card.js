@@ -21,6 +21,7 @@ function Card(props) {
         title: props.item.title,
         text: props.item.text,
         labels: props.item.labels,
+        url: props.item.url
     });
 
     const controls = useAnimation();
@@ -41,7 +42,8 @@ function Card(props) {
                 visible: { y: -40, opacity: 1 }, 
                 hidden: { opacity: 0 }}}
             transition={{ opacity: { duration: 1.5 } }}>
-                <Link className="link-color" to={`/projects/${fields.id}`}>
+                {/* <Link className="link-color" to={`/projects/${fields.id}`}> */}
+                <a href={fields.url} className="link-color">
                     <Container className="justify-content-center project-card">
                         <Row>
                             <Col className="leading" sm={7}><CardInfo 
@@ -55,7 +57,7 @@ function Card(props) {
                             </Col>
                         </Row>
                     </Container>
-                </Link>
+                </a>
         </motion.div>
     );
 }
