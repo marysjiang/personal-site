@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 function About(props) {
     
+    const controls = useAnimation();
+    const [ref, inView] = useInView();
+
+    useEffect(() => {
+        if (inView) {
+            controls.start("visible");
+        }
+    }, [controls, inView]);
+
     return(
-        <div className="anchor-about">
+        <motion.div
+            ref={ ref }
+            animate={ controls } 
+            initial="hidden"
+            variants={{ 
+                visible: { y: -40, opacity: 1 }, 
+                hidden: { opacity: 0 }}}
+            transition={{ opacity: { duration: 1.5 } }} 
+            className="anchor-about">
             <Jumbotron className="bg-transparent alignment" jumbotron-fluid p-0>
                 <Container fluid={true}>
                     <Row className="py-5">
@@ -28,7 +47,7 @@ function About(props) {
                     </Row>
                 </Container>
             </Jumbotron>
-        </div>
+        </motion.div>
     );
 }
 

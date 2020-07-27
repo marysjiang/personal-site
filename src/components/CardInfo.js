@@ -6,17 +6,18 @@ import T2PPage from '../pages/T2PPage';
 function CardInfo(props) {
 
     return(
-        <div>
+        // <div>
             <div class="center-card">
-                <Link className="project-card-title" to={`/projects/${props.id}`}>{props.title}</Link>
+                {/* <Link className="project-card-title" to={`/projects/${props.id}`}>{props.title}</Link> */}
+                <p className="project-card-title">{props.title}</p>
                 <p className="project-card-text">{props.text}</p>
                 {/* ✧✦ ↗ */}
                 <p className="project-card-labels">{props.labels}</p>
             </div>
-            <Switch>
-                <Route path="`/projects/${props.id}`"> render={() => <T2PPage />}</Route>
-            </Switch>
-        </div>
+        //     <Switch>
+        //         <Route path="`/projects/${props.id}`"> render={() => <T2PPage />}</Route>
+        //     </Switch>
+        // </div>
     );
 }
 

@@ -1,13 +1,13 @@
 import React from 'react';
 
-function T2PPage(props) {
+function FilmPhotographyPage(props) {
 
     return(
         <div>
             <br></br><br></br><br></br><br></br><br></br><br></br>
-            <h1>Tale of Two Partners</h1>
+            <h1> Film photography works!</h1>
         </div>
     );
 }
 
-export default T2PPage;
+export default FilmPhotographyPage;

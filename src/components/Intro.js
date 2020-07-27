@@ -4,16 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import star from '../assets/images/star.png';
-
 function Intro(props) {
     
     return(
         <Jumbotron className="bg-transparent alignment introduction" jumbotron-fluid p-0>
             <Container fluid={true}>
-                <Row className="py-5">
+                <Row className="py-7">
                     <Col id="header">
-                        <img src={star} alt={"description of image"} className="mb-3" style={{ height: '23%' }} />
+                        <h1><i>✦</i></h1>
                         <h1>I'm a software engineer<br></br>based in Atlanta.</h1>
                     </Col>
                 </Row>
