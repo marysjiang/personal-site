@@ -1,1 +1,1 @@
-built using react, bootstrapped with create-react-app, deployed with heroku
+This was built using React, scaffolded with Create-React-App, and deployed with Heroku.
